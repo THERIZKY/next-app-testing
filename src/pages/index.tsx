@@ -37,7 +37,7 @@ export default function Home() {
 			<section>
 				<div className="section-container relative overflow-hidden w-full h-screen">
 					<Snow />
-					<div className="content flex flex-col h-full  gap-5 z-20 ">
+					<div className="content flex flex-col h-full justify-center items-center bg-transparan gap-5 z-20 ">
 						<div className="header  animate__animated animate__backInDown animate__fast">
 							<h1 className="text-5xl text- font-bold uppercase text-orange-500"></h1>
 							<img
