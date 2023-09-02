@@ -43,7 +43,7 @@ export default function Home() {
 							<img
 								src="/img/hariqmc.png"
 								alt="biglogo"
-								className="w-32 object-contain"
+								className="w-20rem md:w-35rem object-contain"
 							/>
 						</div>
 						<div className="main text-white max-w-xxs md:max-w-2xl text-2xl animate__animated animate__bounceIn animate-delay-1s">
@@ -67,6 +67,38 @@ export default function Home() {
 					</div>
 					<img
 						src="/img/bg-3.jpg"
+						className="image-cover w-screen h-full absolute -z-10 object-cover top-0 left-0"
+						alt=""
+					/>
+				</div>
+			</section>
+
+			{/* Section kedua */}
+			<section>
+				<div className="section-container relative overflow-hidden w-full h-screen">
+					<div className="content flex flex-col h-full  items-start bg-linear-gradient-About  gap-5 z-20 pt-32 pl-20">
+						<div className="header  animate__animated animate__backInDown animate__fast">
+							<h1 className="text-5xl text- font-bold uppercase text-orange-500">
+								About
+							</h1>
+							<img
+								src="/img/hariqabout.png"
+								alt="biglogo"
+								className="w-20rem object-contain"
+							/>
+						</div>
+						<div className="main text-white max-w-xxs md:max-w-2xl text-2xl animate__animated animate__bounceIn animate-delay-1s">
+							<p>
+								HariqMC is a server established by Faiq & Fathar
+								in 2022 and is an intermediate-level Minecraft
+								server based in Indonesia. It is also the best
+								Slimefun Survival Minecraft server in
+								Indonesian!
+							</p>
+						</div>
+					</div>
+					<img
+						src="/img/bg-4.png"
 						className="image-cover w-screen h-full absolute -z-10 object-cover top-0 left-0"
 						alt=""
 					/>
