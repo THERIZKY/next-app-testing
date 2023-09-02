@@ -81,7 +81,9 @@ export default function Home() {
 							<h1 className="text-5xl text- font-bold uppercase text-orange-500">
 								About
 							</h1>
-							<img
+							<Image
+								width={500}
+								height={500}
 								src="/img/hariqabout.png"
 								alt="biglogo"
 								className="w-20rem object-contain"
@@ -97,7 +99,9 @@ export default function Home() {
 							</p>
 						</div>
 					</div>
-					<img
+					<Image
+						width={5000}
+						height={5000}
 						src="/img/bg-4.png"
 						className="image-cover w-screen h-full absolute -z-10 object-cover top-0 left-0"
 						alt=""
