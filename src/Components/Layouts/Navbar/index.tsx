@@ -18,18 +18,24 @@ const Navbar = () => {
 			<div className="flex gap-10 justify-between md:justify-start w-screen">
 				<div className="navbar-logo flex ">
 					<Image
-						width={1000}
-						height={1000}
+						width={500}
+						height={500}
 						src="/img/h-logo_1.png"
 						alt="Logo"
 						className="w-12 object-contain"
 					/>
 				</div>
 				<NavbarButton />
-				<MenuToggle
+				<div
+					className={`menu-toggle ${
+						isToggleClicked ? "active" : ""
+					} md:hidden`}
 					onClick={toggleHandler}
-					isToggleClicked={isToggleClicked}
-				/>
+				>
+					<div className="bar" />
+					<div className="bar" />
+					<div className="bar" />
+				</div>
 			</div>
 		</nav>
 	);
