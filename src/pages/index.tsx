@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 import Snow from "@/Components/Elements/Snow";
 import Swal from "sweetalert2";
 import "animate.css";
-import Navbar from "@/Components/Layouts/Navbar";
+import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Layouts/Footer";
 const copyText = () => {
 	const teksToCopy = "play.hariq.eu.org";

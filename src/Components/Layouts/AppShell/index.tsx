@@ -1,4 +1,4 @@
-import Navbar from "@/Components/Layouts/Navbar";
+import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Layouts/Footer";
 
 type AppShellProps = {
