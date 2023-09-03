@@ -7,9 +7,12 @@ const Footer = () => {
 			<div className="footer-container w-9/12 min-h-3/4 items-center md:items-start text-slate-50 flex gap-5 flex-col md:flex-row justify-around">
 				<div className="kiri flex flex-col gap-5">
 					<div className="logo flex flex-col items-center md:items-start">
-						<img
+						<Image
+							width={500}
+							height={500}
 							src="/img/hariqabout.png"
 							className="w-32 object-contain"
+							alt=""
 						/>
 					</div>
 					<div className="copyright">

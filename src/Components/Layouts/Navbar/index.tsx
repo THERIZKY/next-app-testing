@@ -1,4 +1,3 @@
-import "@/styles/globals.css";
 import { useState } from "react";
 
 import MenuToggle from "@/Components/Elements/MenuToggle";
@@ -16,7 +15,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="w-full h-24  flex items-center fixed pl-10 bg-linear-gradient-navbar text-slate-200 z-30">
+		<nav className="w-full h-24 flex items-center fixed pl-10 bg-linear-gradient-navbar text-slate-200 z-30">
 			<div className="flex gap-10 justify-between md:justify-start w-screen">
 				<div className="navbar-logo flex ">
 					<Image
